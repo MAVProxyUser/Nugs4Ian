@@ -46,7 +46,7 @@ for flavor in selected:
 	flavorCBD = 0
 
 	title = 'how many quarter (1/4) chunks of ' + flavor[0] + "?"
-	options = ['one', 'two', 'three', 'four']
+	options = ['one', 'two', 'three', 'four', 'five', 'six']
 	selected = pick(options, title)
 
 	thc = float(flavorRatios[flavor[0]].split(",")[0])
